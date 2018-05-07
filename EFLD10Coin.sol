@@ -3,10 +3,10 @@ pragma solidity ^0.4.23;
 // ----------------------------------------------------------------------------
 // 'EFLD10Coin' token contract
 //
-// Deployed to : 0xfa148454cbc68f9001ff407db7b44e46911a0ded
+// Deployed to : 0xcb851bfbc016f646ac1ec0f0622280e96e098de5
 // Symbol      : EFLD10Coin
 // Name        : EFLD10 Coin
-// Total supply: 100000000
+// Total supply: 300000
 // Decimals    : 18
 //
 // Enjoy.
@@ -116,9 +116,9 @@ contract EFLD10Coin is ERC20Interface, Owned, SafeMath {
         symbol = "EFLD10Coin";
         name = "EFLD10 Coin";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
-        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
-        emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
+        _totalSupply = 300000000000000000000000;
+        balances[0x11f9cEd89E64ea505eE44D07Ea49848522729ba3] = _totalSupply;
+        emit Transfer(address(0), 0x11f9cEd89E64ea505eE44D07Ea49848522729ba3, _totalSupply);
     }
 
 
